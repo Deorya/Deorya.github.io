@@ -1,0 +1,124 @@
+    * {
+        margin: 0px;
+    }
+    
+    body {
+        background: url("../img/history_background.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+    #top {
+        width: 100%;
+        background: url("../img/sky.jpg");
+    }
+    /* 导航栏设置 */
+    
+    #nav {
+        background: rgba(0, 0, 255, 0.3);
+        display: block;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #nav a {
+        display: inline-block;
+        font: 2em sans-serif;
+        color: white;
+        padding: 5px 20px;
+        text-decoration: none;
+    }
+    /* 侧边导航栏 */
+    
+    #nav_left {
+        position: fixed;
+        top: 330px;
+        left: 50px;
+        background: rgba(0, 0, 255, 0.3);
+        border-radius: 9px;
+    }
+    
+    #nav_left a {
+        text-decoration: none;
+        font: 2em sans-serif;
+        color: white;
+        padding: 5px 20px;
+    }
+    
+    .next_left {
+        display: none;
+        border-radius: 9px;
+        position: relative;
+        left: 50px;
+    }
+    
+    .drop_left:hover .next_left {
+        display: block;
+        background: #636caa;
+    }
+    
+    #nav_left .drop_left:hover {
+        background: rgba(0, 0, 255, 0.3);
+    }
+    
+    .next_left a:hover {
+        background: rgba(0, 0, 255, 0.3);
+    }
+    
+    .next_left a {
+        display: block;
+    }
+    /* 联系我们按钮 */
+    
+    #contact {
+        width: 32px;
+        height: 32px;
+        position: fixed;
+        bottom: 160px;
+        right: 47px;
+    }
+    /* 回到顶部按钮设置 */
+    
+    #back_top {
+        background-color: rgba(0, 70, 132, 0.6);
+        border-radius: 4px;
+        width: 28px;
+        height: 32px;
+        position: fixed;
+        bottom: 100px;
+        right: 50px;
+    }
+    
+    #back_top a:hover {
+        display: inline-block;
+        background: rgba(0, 0, 255, 0.3);
+    }
+    /* 历史正文 */
+    
+    #history {
+        background: white url("../img/history.jpg");
+        width: 56%;
+        margin: auto;
+    }
+    
+    .headline {
+        font: 1.5em sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .citeword {
+        font: 1.2em sans-serif;
+        text-align: center;
+    }
+    
+    p {
+        text-indent: 2em;
+        font: 1.2em sans-serif;
+        text-align: left;
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+    }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/lxwm.css">
+</head>
+
+<body>
+    <div id="top">
+        <!-- //头部logo -->
+        <p><img src="../img/logo华水.jpg" alt=""></p>
+    </div>
+
+    <!-- 返回主页 -->
+    <div>
+        <a href="index.html" title="返回主页"><img id="back_index" src="../img/OIP-C (1).jfif" alt="返回主页"></a>
+    </div>
+    <div id="ex">
+        <h2>联系我们</h2>
+        <p>请填写下列表单</p>
+
+        <div id="in">
+            <form action="">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="name">名字</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="name" name="firstname" placeholder="请输入你的名字">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="sex">性别</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="sex" name="sex" placeholder="请输入你的性别">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="age">年龄</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="age" name="age" placeholder="请输入你的年龄">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="tele">联系方式</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="tele" name="tele" placeholder="请输入你的联系方式">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="feedback">想要反馈的页面</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="feedback" name="feedback">
+                        <option value="index">首页</option>
+                        <option value="hsls">华水历史</option>
+                        <option value="tcsj">突出事迹</option>
+                        <option value="xyyj">校园一角</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="suggest">建议</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="suggest" name="suggest" placeholder="请输入你的建议" style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="提交" onclick="alert('提交成功！')">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
